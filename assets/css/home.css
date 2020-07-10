@@ -126,6 +126,21 @@ p {
   z-index: 1;
 }
 
+.hire h6 {
+  font-weight: normal;
+  font-size: 24px;
+  color: #07031a;
+}
+.hire .btn {
+  background: #07031a;
+  width: 165px;
+  height: 57px;
+  padding: 15px 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 901px) {
   .align-items-center {
     -ms-flex-align: flex-start !important;
