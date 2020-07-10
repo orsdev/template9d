@@ -76,6 +76,7 @@ p {
 
 .active-link {
   position: relative;
+  overflow-x: hidden;
 }
 
 .active-link::after {
@@ -83,7 +84,7 @@ p {
   position: absolute;
   width: 30px;
   bottom: 5px;
-  left: 15px;
+  left: 12px;
   border-bottom: 3px solid #fbd46d;
 }
 
@@ -181,7 +182,7 @@ p {
   width: 100%;
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 991px) {
   .align-items-center {
     -ms-flex-align: flex-start !important;
     align-items: flex-start !important;
