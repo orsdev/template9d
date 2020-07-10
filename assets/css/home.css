@@ -1,3 +1,19 @@
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #07031a;
+}
+
+p {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.p-left-right {
+  padding: 0 3rem;
+}
+
 .header {
   position: relative;
   height: 900px;
@@ -5,15 +21,6 @@
 .header .navbar {
   position: relative;
   z-index: 2;
-}
-.header .navbar-brand {
-  width: 100px;
-}
-.header .navbar-brand span {
-  display: block;
-  font-weight: 900;
-  font-size: 19.6597px;
-  line-height: 18px;
 }
 .header .navbar ul li .nav-link {
   font-weight: bold;
@@ -80,20 +87,14 @@
   border-bottom: 3px solid #fbd46d;
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 36px;
-  color: #07031a;
+.navbar-brand {
+  width: 100px;
 }
-
-p {
-  font-weight: normal;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.p-left-right {
-  padding: 0 3rem;
+.navbar-brand span {
+  display: block;
+  font-weight: 900;
+  font-size: 19.6597px;
+  line-height: 18px;
 }
 
 .portfolio .figure img {
@@ -136,9 +137,48 @@ p {
   width: 165px;
   height: 57px;
   padding: 15px 25px;
+}
+.hire .btn a {
   font-weight: bold;
   font-size: 18px;
   color: #ffffff;
+}
+
+.footer {
+  background: #1d2122;
+}
+.footer h3 {
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 0;
+  line-height: 34px;
+}
+.footer small {
+  opacity: 0.8;
+}
+.footer form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  width: 80%;
+  padding: 10px 1px;
+  border-bottom: 1px solid #ffffff;
+}
+.footer form input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer form .btn {
+  border-radius: 0;
+}
+.footer hr {
+  border: 2px solid #fbd46d;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 @media screen and (max-width: 901px) {
@@ -149,6 +189,26 @@ p {
 
   .navbar .nav-item:not(:last-child) {
     margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer .justify-content-end {
+    justify-content: flex-start !important;
+  }
+  .footer hr {
+    width: 95%;
+  }
+  .footer .social {
+    margin-top: 20px;
+  }
+  .footer .social .text-right {
+    text-align: left !important;
+  }
+  .footer-nav {
+    text-align: left !important;
+  }
+  .footer-nav .navbar-brand {
+    margin-left: 0 !important;
   }
 }
 @media screen and (max-width: 530px) {
@@ -162,6 +222,11 @@ p {
 
   .p-left-right {
     padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer form input {
+    width: 100%;
   }
 }
 @media screen and (max-width: 220px) {
