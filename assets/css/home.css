@@ -1,5 +1,6 @@
 .header {
   position: relative;
+  height: 900px;
 }
 .header .navbar {
   position: relative;
@@ -40,7 +41,7 @@
   background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/home/heroBG.png);
   background-position: top center;
   background-size: cover;
-  height: 900px;
+  height: 100%;
   mix-blend-mode: multiply;
   display: flex;
   flex-direction: column;
@@ -77,6 +78,24 @@
   bottom: 5px;
   left: 15px;
   border-bottom: 3px solid #fbd46d;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #07031a;
+}
+
+.portfolio .figure img {
+  width: 380px;
+  height: 350px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.portfolio figcaption {
+  font-weight: 500;
+  font-size: 18px;
+  color: #07031a;
 }
 
 @media screen and (max-width: 901px) {
