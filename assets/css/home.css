@@ -1,0 +1,113 @@
+.header {
+  position: relative;
+}
+.header .navbar {
+  position: relative;
+  z-index: 2;
+}
+.header .navbar-brand {
+  width: 100px;
+}
+.header .navbar-brand span {
+  display: block;
+  font-weight: 900;
+  font-size: 19.6597px;
+  line-height: 18px;
+}
+.header .navbar ul li .nav-link {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+}
+.header .navbar ul li .nav-link:hover {
+  color: wheat;
+}
+.header .navbar ul li .contact-btn {
+  padding: 15px 35px;
+  background: #fbd46d;
+  font-size: 18px;
+  color: #07031a;
+  font-weight: bold;
+}
+.header .navbar ul li .contact-btn:hover {
+  color: #130848;
+  background: #f8c842;
+}
+.header .hero {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/home/heroBG.png);
+  background-position: top center;
+  background-size: cover;
+  height: 900px;
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .hero-header {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  width: 100%;
+  text-align: center;
+}
+.header .hero .btn {
+  padding: 15px 35px;
+  border: 1px solid #fbd46d;
+  width: 170px;
+  height: 57px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.active-link {
+  position: relative;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  bottom: 5px;
+  left: 15px;
+  border-bottom: 3px solid #fbd46d;
+}
+
+@media screen and (max-width: 901px) {
+  .align-items-center {
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .navbar .nav-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .header .hero {
+    padding: 20px;
+  }
+  .header .hero-header {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 220px) {
+  .header .hero-header {
+    font-size: 35px;
+  }
+  .header .hero .btn {
+    width: 100%;
+  }
+  .header .hero .btn a {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
