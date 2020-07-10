@@ -86,6 +86,16 @@ h2 {
   color: #07031a;
 }
 
+p {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.p-left-right {
+  padding: 0 3rem;
+}
+
 .portfolio .figure img {
   width: 380px;
   height: 350px;
@@ -96,6 +106,24 @@ h2 {
   font-weight: 500;
   font-size: 18px;
   color: #07031a;
+}
+
+.about-img {
+  position: relative;
+}
+.about-img-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(7, 3, 26, 0.75);
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 @media screen and (max-width: 901px) {
@@ -115,6 +143,10 @@ h2 {
   .header .hero-header {
     font-size: 40px;
     line-height: 45px;
+  }
+
+  .p-left-right {
+    padding: 0 1rem;
   }
 }
 @media screen and (max-width: 220px) {
