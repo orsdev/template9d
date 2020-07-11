@@ -64,7 +64,7 @@
   justify-content: center;
 }
 .header .contact-hero {
-  background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/contact/heroBG.png);
+  background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/contact/heroBG.jpg);
   justify-content: flex-end;
 }
 
