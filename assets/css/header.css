@@ -36,9 +36,6 @@
   height: 100%;
   mix-blend-mode: multiply;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .header .hero-header {
   font-weight: bold;
@@ -60,6 +57,9 @@
 }
 .header .home-hero {
   background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/home/heroBG.jpg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .active-link {
