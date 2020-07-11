@@ -36,6 +36,11 @@
   height: 57px;
   background: #07031a;
   color: white;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 .contact-form form .btn:hover {
   background: #12093d;
