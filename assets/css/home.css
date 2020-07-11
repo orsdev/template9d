@@ -62,6 +62,11 @@ p {
 }
 
 @media screen and (max-width: 991px) {
+  .header .py-4 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
   .align-items-center {
     -ms-flex-align: flex-start !important;
     align-items: flex-start !important;
