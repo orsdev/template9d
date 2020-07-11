@@ -1,0 +1,38 @@
+.footer {
+  background: #1d2122;
+}
+.footer h3 {
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 0;
+  line-height: 34px;
+}
+.footer small {
+  opacity: 0.8;
+}
+.footer form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  width: 80%;
+  padding: 10px 1px;
+  border-bottom: 1px solid #ffffff;
+}
+.footer form input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer form .btn {
+  border-radius: 0;
+}
+.footer hr {
+  border: 2px solid #fbd46d;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=footer.css.map */
