@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/responsiveFooterHeader.css">
+
+  <title>TANYA TUCKER | CONTACT US </title>
+</head>
+
+<body>
+  <header class="header header-contact" id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-4">
+      <a class="navbar-brand text-light" href="#">
+        <span class="navbar-logo-first text-left">TANYA</span>
+        <span class="navbar-logo-second text-left">TUCKER</span>
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 align-items-center">
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="home.html#about">ABOUT ME</a>
+          </li>
+          <li class="nav-item dropdown mr-5">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">PORTFOLIO</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">PORTFOLIO ONE</a>
+              <a class="dropdown-item" href="#">PORTFOLIO TWO</a>
+            </div>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact-btn" href="contact.html">LETS TALK</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero w-100 contact-hero">
+      <h1 class="hero-header text-light px-5 pb-5" data-aos="fade-in">SEND A MESSAGE</h1>
+    </section>
+  </header>
+  <section class="contact-form w-100 p-left-right" data-aos="zoom-in">
+    <div class="row">
+      <div class="col-lg-12">
+        <form action="" method="post">
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="fullname" id="name" placeholder="Name here" required>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+                <input type="email" name="fullname" id="contact-email" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message here"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-lg">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer w-100 p-left-right py-5">
+    <div class="row">
+      <div class="col-sm-6">
+        <address class="subscribe">
+          <h3 class="text-light">Subscribe</h3>
+          <small class="text-light">Never miss out on Popular Deals</small>
+          <form id="subscribe">
+            <input type="email" name="email" id="email" placeholder="Your email" class="d-block mt-2">
+            <button class="btn btn-md btn-light d-block mt-2">Subscribe</button>
+          </form>
+        </address>
+      </div>
+      <div class="col-sm-6">
+        <address class="social d-flex flex-column justify-content-end">
+          <ul class=" d-flex justify-content-end">
+            <li class="mr-4">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/instagram.png" alt="Instagram">
+              </a>
+            </li>
+            <li class="mr-4">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/fb.png" alt="Facebook">
+              </a>
+            </li>
+            <li class="mr-4">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/twitter.png" alt="Twitter">
+              </a>
+            </li>
+            <li class="mr-4">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/linkedin.png" alt="Linkedin">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/icons/youtube.png" alt="Youtube">
+              </a>
+            </li>
+          </ul>
+          <small class="w-100 text-right">
+            <a href="tel:+31 555 55555" class="text-light">+31 555 55555</a>
+          </small>
+          <small class="text-right mt-2">
+            <a href="mailto:tanyatucker@tt.com" class="text-light">tanyatucker@tt.com</a>
+          </small>
+        </address>
+      </div>
+      <hr class="border-top">
+      <nav class="w-100 text-center footer-nav px-2">
+        <a class="navbar-brand text-light ml-5" href="#home">
+          <span class="navbar-logo-first text-left">TANYA</span>
+          <span class="navbar-logo-second text-left">TUCKER</span>
+        </a>
+        <small class="text-light d-block mt-3">&copy; 2020</small>
+      </nav>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
