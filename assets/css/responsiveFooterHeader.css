@@ -1,0 +1,66 @@
+@media screen and (max-width: 991px) {
+  .header .py-4 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  .align-items-center {
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .navbar .nav-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer .justify-content-end {
+    justify-content: flex-start !important;
+  }
+  .footer hr {
+    width: 95%;
+  }
+  .footer .social {
+    margin-top: 20px;
+  }
+  .footer .social .text-right {
+    text-align: left !important;
+  }
+  .footer-nav {
+    text-align: left !important;
+  }
+  .footer-nav .navbar-brand {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 530px) {
+  .header .hero {
+    padding: 20px;
+  }
+  .header .hero-header {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .p-left-right {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer form input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 220px) {
+  .header .hero-header {
+    font-size: 35px;
+  }
+  .header .hero .btn {
+    width: 100%;
+  }
+  .header .hero .btn a {
+    font-size: 1.1rem;
+  }
+}
+
+/*# sourceMappingURL=responsivefooterheader.css.map */
