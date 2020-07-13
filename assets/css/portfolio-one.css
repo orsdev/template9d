@@ -31,18 +31,29 @@ section {
    display: block;
 }
 
+
 h2 {
-   font-weight: 600;
-   font-size: 36px;
-   color: #07031a;
+  font-weight: 600;
+  font-size: 36px;
+  color: #07031a;
 }
 
 p {
-   font-weight: normal;
-   font-size: 18px;
-   text-align: justify;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .p-left-right {
-   padding: 0 3rem;
+  padding: 0 3rem;
 }
+
+.portfolio1 .figure img {
+  width: 380px;
+  height: 600px;
+  object-fit: cover;
+  max-width: 100%;
+  
+}
+
+

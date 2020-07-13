@@ -7,6 +7,9 @@
 .header-contact {
   height: 450px;
 }
+.header-portfolio1{
+  height: 450px;
+}
 .header .navbar {
   position: relative;
   z-index: 2;
@@ -67,7 +70,10 @@
   background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/contact/heroBG.jpg);
   justify-content: flex-end;
 }
-
+.header .contact-portfolio1 {
+  background-image: linear-gradient(to left, rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)), url(../img/portfolioOne/portfolioBG.png);
+  justify-content: flex-end;
+}
 .active-link {
   position: relative;
   overflow-x: hidden;
