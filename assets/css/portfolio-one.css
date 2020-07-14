@@ -1,59 +1,13 @@
-*,
-*::before,
-*::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: inherit;
-}
-
-html {
-   scroll-behavior: smooth;
-}
-
-body {
-   box-sizing: border-box;
+.portfolio img {
+   width: 380px;
+   height: 350px;
+   object-fit: cover;
    max-width: 100%;
-   overflow-x: hidden;
-   font-family: "Poppins", sans-serif;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-   display: block;
+@media screen and (max-width: 320px) {
+   .portfolio-one-hero .px-5 {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+   }
 }
-
-
-h2 {
-  font-weight: 600;
-  font-size: 36px;
-  color: #07031a;
-}
-
-p {
-  font-weight: normal;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.p-left-right {
-  padding: 0 3rem;
-}
-
-.portfolio1 .figure img {
-  width: 380px;
-  height: 600px;
-  object-fit: cover;
-  max-width: 100%;
-  
-}
-
-

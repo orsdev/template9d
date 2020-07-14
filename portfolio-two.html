@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-     
- 
-  <!--Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
- 
-  <!--External CSS-->
-  <link rel="stylesheet" href="assets/css/portfolio-two.css">
+
+  <title>TANYA TUCKER | PORTFOLIO</title>
+
+  <!-- BOOTSTRAP CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--FONT CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- AOS(ANIMATION) CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--EXTERNAL CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/footer.css">
-  
+  <link rel="stylesheet" href="assets/css/portfolio-two.css">
+  <link rel="stylesheet" href="assets/css/responsiveFooterHeader.css">
+
 </head>
-<body>
-  <!--Header and Navbar-->
-  <header class="header header-portfolio1" id="home">
+
+<body id="top">
+  <!-- HEADER SECTION -->
+  <header class="header header-portfolio">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-4">
       <a class="navbar-brand text-light" href="#">
         <span class="navbar-logo-first text-left">TANYA</span>
@@ -34,7 +42,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 align-items-center">
           <li class="nav-item mr-5">
-            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="home.html">HOME</a>
           </li>
           <li class="nav-item mr-5">
             <a class="nav-link" href="home.html#about">ABOUT ME</a>
@@ -56,74 +64,77 @@
         </ul>
       </div>
     </nav>
-    <section class="hero w-100 contact-portfolio1">
-      <h1 class="hero-header text-light px-5 pb-5" data-aos="fade-in">PORTFOLIO</h1>
+    <section class="hero w-100 portfolio-two-hero">
+      <h1 class="hero-header text-light px-5 pb-5" data-aos="fade-in">PORTFOLIOS</h1>
     </section>
   </header>
 
-  <!--First row-->
-  <section class="portfolio2 w-100 mt-5 p-left-right">
-    <div class="row mt-3">  
+  <!-- PORTFOLIO SECTION -->
+  <section class="portfolio w-100 mt-5 p-left-right">
+    <div class="row mt-3" data-aos="zoom-in">
       <div class="col-lg-6 col-md-6">
         <figure class="figure" data-aos="fade-up-right">
           <img src="assets/img/portfolioTwo/wedding1.png" class="figure-img" alt="Wedding Image">
-        </figure> 
-    </div>
-    <span class="fig-caption">
-      <p class="hashtag">ORPUFO2019</p>
-      <p class="topic">Wedding</p>
-      <p class="date">02/05/2019</p>
-    </span> 
-  </section>
-  <!--Second row-->
-  <section class="portfolio2 w-100 mt-5 p-left-right">
-    <div class="row mt-3">  
-      <div class="col-lg-3 col-md-6">
-        <figure class="row2" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding2.png" class="figure-img" alt="Wedding Image">
         </figure>
       </div>
-      <div class="col-lg-3 col-md-6">
-        <figure class="row2" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding3.png" class="figure-img" alt="Wedding Image">
-        </figure>  
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <figure class="row2" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding4.png" class="figure-img" alt="Wedding Image">
-        </figure>  
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <figure class="row2" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding5.png" class="figure-img" alt="Wedding Image">
-        </figure> 
-      </div>  
+      <span class="fig-caption">
+        <p class="hashtag">ORPUFO2019</p>
+        <p class="topic">Wedding</p>
+        <p class="date">02/05/2019</p>
+      </span>
     </div>
   </section>
-  <!--Third row-->  
-  <section class="portfolio2 w-100 mt-5 p-left-right">
-    <h2>More Portfolio for you</h2>
-    <div class="row mt-3">  
-      <div class="col-lg-4 col-md-6">
-        <figure class="figure" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding8.png" class="figure-img" alt="Wedding Image">
-        </figure> 
+  <section class="portfolio w-100 mt-5 p-left-right">
+    <div id="carousel-1" class="carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="col-lg-3 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding2.png" class="figure-img" alt="Wedding Image">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding3.png" class="figure-img" alt="Wedding Image">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding4.png" class="figure-img" alt="Wedding Image">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding5.png" class="figure-img" alt="Wedding Image">
+          </div>
+        </div>
       </div>
-      <div class="col-lg-4 col-md-6">
-        <figure class="figure" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding6.png" class="figure-img" alt="Wedding Image">
-        </figure>  
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <figure class="figure" data-aos="fade-up-right">
-          <img src="assets/img/portfolioTwo/wedding7.png" class="figure-img" alt="Wedding Image">
-        </figure>  
-      </div>  
     </div>
   </section>
-  
-  <!--Footer-->
-  <footer class="footer w-100 p-left-right py-5">
+  <section class="portfolio w-100 mt-5 p-left-right">
+    <h2 class="ml-2">More Portfolio for you</h2>
+    <div id="carousel-2" class="carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="col-lg-4 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding8.png" class="figure-img" alt="Wedding Image">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img src="assets/img/portfolioTwo/wedding6.png" class="figure-img" alt="Wedding Image">
+          </div>
+          <div class="carousel-item active">
+            <div class="col-lg-4 col-md-6">>
+              <img src="assets/img/portfolioTwo/wedding7.png" class="figure-img" alt="Wedding Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER SECTION -->
+  <footer class="footer w-100 mt-5 p-left-right py-5">
     <div class="row">
       <div class="col-sm-6">
         <address class="subscribe">
@@ -174,7 +185,7 @@
       </div>
       <hr class="border-top">
       <nav class="w-100 text-center footer-nav px-2">
-        <a class="navbar-brand text-light ml-5" href="#home">
+        <a class="navbar-brand text-light ml-5" href="#top">
           <span class="navbar-logo-first text-left">TANYA</span>
           <span class="navbar-logo-second text-left">TUCKER</span>
         </a>
@@ -182,5 +193,13 @@
       </nav>
     </div>
   </footer>
-</body>    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/carousel.js"></script>
+
+</body>
+
 </html>

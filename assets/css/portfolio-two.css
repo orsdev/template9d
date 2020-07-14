@@ -1,70 +1,100 @@
-*,
-*::before,
-*::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: inherit;
-}
-
-html {
-   scroll-behavior: smooth;
-}
-
-body {
-   box-sizing: border-box;
-   max-width: 100%;
-   overflow-x: hidden;
-   font-family: "Poppins", sans-serif;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-   display: block;
-}
-
-
-h2 {
-  font-weight: 600;
-  font-size: 36px;
-  color: #030303;
-}
-
-p {
-  font-weight: normal;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.p-left-right {
-  padding: 0 3rem;
-}
-
-
-.portfolio2 .figure img {
+.portfolio .figure img {
    width: 615px;
    height: 450px;
    object-fit: cover;
    max-width: 100%;
-    
 }
 
-.fig-caption{
+.fig-caption {
    position: relative;
    left: 20px;
    top: -1px;
 }
 
-.hashtag{
-   font-weight: 600;
-   font-size: 30px;
+.item {
+   outline: 2px solid red;
+   width: 318px !important;
 }
 
+.slick {
+   outline: 2px solid blue;
+}
+
+.hashtag {
+   font-weight: 600;
+   font-size: 48px;
+}
+
+.topic {
+   font-weight: 500;
+   font-size: 36px;
+}
+
+.date {
+   font-weight: 500;
+   font-size: 24px;
+}
+
+.portfolio p {
+   color: #07031a;
+   margin: 0;
+}
+
+.figure-img {
+   width: 100% !important;
+}
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+   .carousel-inner .carousel-item-right.active,
+   .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+   }
+
+   .carousel-inner .carousel-item-left.active,
+   .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+   }
+}
+/* large - display 3 */
+@media (min-width: 992px) {
+   .carousel-inner .carousel-item-right.active,
+   .carousel-inner .carousel-item-next {
+      transform: translateX(33%);
+   }
+
+   .carousel-inner .carousel-item-left.active,
+   .carousel-inner .carousel-item-prev {
+      transform: translateX(-33%);
+   }
+}
+@media (max-width: 768px) {
+   .carousel-inner .carousel-item > div {
+      display: none;
+   }
+
+   .carousel-inner .carousel-item > div:first-child {
+      display: block;
+   }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+   display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+   transform: translateX(0);
+}
+
+@media screen and (max-width: 520px) {
+   .hashtag {
+      font-size: 24px;
+   }
+
+   .topic,
+   .date {
+      font-size: 18px;
+   }
+}
